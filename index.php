@@ -1,5 +1,6 @@
 <?php
 
-echo "<h1>Hello World</h1>";
+$uname = php_uname('n');
+echo "<h1>Hello from {$uname}</h1>";
 
 phpinfo();
